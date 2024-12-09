@@ -6,6 +6,9 @@ on:
             - master # Trigger the pipeline on push to master branch
             - main # Trigger the pipeline on push to main branch
 
+# add two more events, i.e. pull request raised on master branch, and manual trigger from github ui
+    workflow_dispatch:
+
 jobs:
     sampleJob:
         runs-on: windows-latest # Run the pipeline on windows-latest runner
@@ -15,3 +18,4 @@ jobs:
 
             - name: "Print current directory"
               run: pwd
+
