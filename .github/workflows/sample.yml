@@ -1,4 +1,4 @@
-name: "Sample pipeline" # Name of the pipeline
+name: "Sample pipeline/workflow" # Name of the pipeline
 
 on:
     push:
@@ -22,3 +22,13 @@ jobs:
             - name: "Print current directory"
               run: pwd
 
+            - name: "List files in surrent directory"
+              run: ls
+
+            - name: "Setup node js"
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '20'
+
+            - name: "Check node version"
+              run: node --version

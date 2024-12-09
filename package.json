@@ -1,0 +1,23 @@
+{
+  "name": "actionsdemo",
+  "version": "1.0.0",
+  "description": "This is a readme change from test branch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aayushsingh2001/Actions-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aayushsingh2001/Actions-Demo/issues"
+  },
+  "homepage": "https://github.com/Aayushsingh2001/Actions-Demo#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
